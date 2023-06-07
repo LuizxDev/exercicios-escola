@@ -17,7 +17,7 @@ public class principalController {
     public void cadastroCarro(String marca, String modelo, int ano) {
         Carro carro = new Carro();
 
-        carro.setMarca(modelo);
+        carro.setMarca(marca);
         carro.setModelo(modelo);
         carro.setAno(ano);
     }
