@@ -40,7 +40,7 @@ public class Aplicacao {
             JOptionPane.showMessageDialog(null, "Registro feito com sucesso!");
 
             JOptionPane.showMessageDialog(null,
-                    "--Seus dados--: \nNome: " + nome.toUpperCase() + "\nIdade: " + idade
+                    "--Seus dados-- \nNome: " + nome.toUpperCase() + "\nIdade: " + idade
                             + "\n--Dados do Carro-- \nMarca: " + marca.toUpperCase() + "\nModelo: "
                             + modelo.toUpperCase() + "\nAno: "
                             + ano);
