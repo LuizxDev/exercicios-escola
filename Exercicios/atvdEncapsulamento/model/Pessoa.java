@@ -1,4 +1,4 @@
-package atvdEncapsulamento.model;
+package Exercicios.atvdEncapsulamento.model;
 
 public final class Pessoa{
     private String nome;

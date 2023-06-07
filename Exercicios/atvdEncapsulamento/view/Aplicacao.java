@@ -1,4 +1,4 @@
-package atvdEncapsulamento.view;
+package Exercicios.atvdEncapsulamento.view;
 
 /**
  * Descrição da classe.
