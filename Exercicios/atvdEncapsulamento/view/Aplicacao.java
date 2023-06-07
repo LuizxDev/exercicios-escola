@@ -5,7 +5,10 @@ import javax.swing.JOptionPane;
 import Exercicios.atvdEncapsulamento.controller.principalController;
 
 /**
- * Descrição da classe.
+ * o código permite que o usuário informe seu nome, idade e detalhes do carro, e
+ * em seguida, exibe uma mensagem com os dados informados. Dependendo da idade
+ * fornecida, o código pode impedir o registro de um carro se o usuário for
+ * menor de idade.
  *
  * @author Luiz Felipe
  * @version 1.0
