@@ -46,7 +46,7 @@ public class Aplicacao {
                     "--Seus dados-- \nNome: " + nome.toUpperCase() + "\nIdade: " + idade
                             + "\n--Dados do Carro-- \nMarca: " + marca.toUpperCase() + "\nModelo: "
                             + modelo.toUpperCase() + "\nAno: "
-                            + ano);
+                            + ano + "\nData do Registro: " + controller.dataRegistro());
 
         }
 

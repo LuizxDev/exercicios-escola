@@ -1,5 +1,8 @@
 package Exercicios.atvdEncapsulamento.controller;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import Exercicios.atvdEncapsulamento.model.Carro;
 import Exercicios.atvdEncapsulamento.model.Pessoa;
 
@@ -20,6 +23,12 @@ public class principalController {
         carro.setMarca(marca);
         carro.setModelo(modelo);
         carro.setAno(ano);
+    }
+
+    public String dataRegistro(){
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+        String data = format.format(new Date());
+        return data;
     }
 
 }
