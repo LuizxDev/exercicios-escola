@@ -17,8 +17,12 @@ public class Principal {
         if(p1.getIdade() < 18){
             JOptionPane.showMessageDialog(null, "Não é possível registrar um carro, pois você não possui idade suficiente.");
         }else{
-            car.setMarca();
+            car.setMarca(JOptionPane.showInputDialog("Digite a marca do seu carro"));
+            car.setModelo(JOptionPane.showInputDialog("Digite o modelo"));
+            car.setAno(Integer.parseInt(JOptionPane.showInputDialog("Digite o ano")));
         }
+
+        JOptionPane.showMessageDialog();
 
 
 
