@@ -1,7 +1,7 @@
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte maneira:
-```css
+```javascript
 ├── src
 │   ├── Exercicios
 │   │   ├── atvdEncapsulamento
